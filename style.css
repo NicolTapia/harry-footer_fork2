@@ -1,3 +1,65 @@
+/* Estilos generales para el cuerpo */
 body {
-  background-color: rgb(190, 143, 235);
+  background-color: #f0f8ff; /* Color de fondo suave */
+  font-family: Arial, sans-serif; /* Fuente más moderna */
+  color: #333; /* Color de texto oscuro para mejor legibilidad */
+  margin: 0;
+  padding: 0;
+}
+
+/* Estilo para el título principal */
+h1 {
+  color: #4b0082; /* Color de texto púrpura oscuro */
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* Estilos para los otros encabezados */
+h2, h3, h4, h5, h6 {
+  color: #4b0082; /* Mismo color púrpura para consistencia */
+  margin: 15px 0;
+}
+
+/* Estilo para los párrafos */
+p {
+  line-height: 1.6; /* Mejora la legibilidad del texto */
+  margin: 0 20px 20px;
+}
+
+/* Estilo para las listas */
+ul, ol {
+  margin: 20px;
+  padding: 0;
+}
+
+ul li, ol li {
+  margin-bottom: 10px;
+}
+
+/* Estilo para la lista sin orden */
+ul {
+  list-style-type: square; /* Cambia el estilo de los puntos de la lista */
+}
+
+/* Estilo para la lista ordenada */
+ol {
+  list-style-type: decimal; /* Estilo de lista ordenada por defecto */
+}
+
+/* Estilo para las imágenes */
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 20px auto; /* Centra la imagen horizontalmente */
+}
+
+/* Estilo para los enlaces */
+a {
+  color: #ff4500; /* Color anaranjado brillante para los enlaces */
+  text-decoration: none; /* Quita el subrayado por defecto */
+}
+
+a:hover {
+  text-decoration: underline; /* Subrayado cuando el ratón pasa sobre el enlace */
 }
